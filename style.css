@@ -1,0 +1,97 @@
+body{
+    /* border: 5px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 10px rgb(70, 13, 13);
+    margin: 80px;
+}
+
+.container{
+    background-color: cyan;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.info{
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    color: purple;
+    background-color: white;
+}
+
+#image{
+    float: right;
+    height: 100px;
+    width: 200px;
+    border: 3px solid purple;
+    border-radius: 15px;
+}
+
+.description{
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(images/black1.jpg);
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.uno{
+    float: left;
+    width: 50%;
+}
+
+.def{
+    float: right;
+    width: 50%;
+}
+
+.form{
+    margin: 15px;
+    margin-top: 60px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+input{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 10px;
+    width: 100px;
+}
+
+#button{
+    align-items: center;
+    text-align: justify;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+#button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+textarea{
+    width: 80%;
+}
